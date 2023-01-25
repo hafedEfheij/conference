@@ -114,3 +114,8 @@ p2.textContent = "@ Microverse, the school for remote developers";
 eventDate.appendChild(p2);
 
 document.body.appendChild(navbar);
+
+
+
+
+
