@@ -45,7 +45,7 @@ const linkNames = [
   'Join',
   'Sponsor',
   'News',
-  'Dashboard',
+  'RoR Campaign',
 ];
 const linkUrls = [
   './index.html',

@@ -31,7 +31,7 @@ const col3 = document.createElement('div');
 col3.classList.add('col-3', 'speaker-block', 'pr-0', 'pl-0');
 const img = document.createElement('img');
 img.classList.add('img-fluid', 'rounded', 'speaker-avatar');
-img.src = './assets/images/davidcomics.jpg';
+img.src = './images/speaker1.jpeg';
 img.alt = 'Speaker';
 col3.appendChild(img);
 
@@ -103,7 +103,7 @@ const col9 = document.createElement('div');
 col9.classList.add('col-3', 'speaker-block', 'pr-0', 'pl-0');
 const img3 = document.createElement('img');
 img3.classList.add('img-fluid', 'rounded', 'speaker-avatar');
-img3.src = './assets/images/author4.jpg';
+img3.src = './images/speaker1.jpeg';
 img3.alt = 'Speaker';
 col9.appendChild(img3);
 
