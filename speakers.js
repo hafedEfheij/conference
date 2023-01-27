@@ -31,7 +31,7 @@ const col3 = document.createElement('div');
 col3.classList.add('col-3', 'speaker-block', 'pr-0', 'pl-0');
 const img = document.createElement('img');
 img.classList.add('img-fluid', 'rounded', 'speaker-avatar');
-img.src = "./images/speaker3.jpeg";
+img.src = './images/speaker3.jpeg';
 img.alt = 'Speaker';
 col3.appendChild(img);
 
@@ -76,14 +76,14 @@ const col7 = document.createElement('div');
 col7.classList.add('col-9', 'speaker-block', 'pr-0', 'pl-4');
 const h3Speaker2 = document.createElement('h3');
 h3Speaker2.classList.add('mb-1', 'section-title', 'font-weight-bold');
-h3Speaker2.textContent = 'David YAO';
+h3Speaker2.textContent = 'John Smith';
 const p3 = document.createElement('p');
 p3.classList.add('red', 'font-italic');
 p3.textContent = 'Full Stack Web Developer';
 const hrSpeaker2 = document.createElement('hr');
 hrSpeaker2.classList.add('hr-speakers', 'ml-0', 'mb-3');
 const p4 = document.createElement('p');
-p4.textContent = '3 years of experience as Software Developer in Laravel, Symfony and ReactJS. Looking for new opportunities';
+p4.textContent = '3 years of experience as Software Developer in Laravel, Symfony . Looking for new opportunities';
 
 col7.appendChild(h3Speaker2);
 col7.appendChild(p3);
@@ -111,7 +111,7 @@ const col10 = document.createElement('div');
 col10.classList.add('col-9', 'speaker-block', 'pr-0', 'pl-4');
 const h3Speaker3 = document.createElement('h3');
 h3Speaker3.classList.add('mb-1', 'section-title', 'font-weight-bold');
-h3Speaker3.textContent = 'David YAO';
+h3Speaker3.textContent = 'Jane Doe';
 const p5 = document.createElement('p');
 p5.classList.add('red', 'font-italic');
 p5.textContent = 'Full Stack Web Developer';
@@ -138,7 +138,7 @@ const col12 = document.createElement('div');
 col12.classList.add('col-3', 'speaker-block', 'pr-0', 'pl-0');
 const img4 = document.createElement('img');
 img4.classList.add('img-fluid', 'rounded', 'speaker-avatar');
-img4.src = "./images/speaker2.jpeg";
+img4.src = './images/speaker2.jpeg';
 img4.alt = 'Speaker';
 col12.appendChild(img4);
 
@@ -149,12 +149,11 @@ h3Speaker4.classList.add('mb-1', 'section-title', 'font-weight-bold');
 h3Speaker4.textContent = 'David YAO';
 const p7 = document.createElement('p');
 p7.classList.add('red', 'font-italic');
-p7.textContent = "Mobile App Developer";
+p7.textContent = 'Mobile App Developer';
 const hrSpeaker4 = document.createElement('hr');
 hrSpeaker4.classList.add('hr-speakers', 'ml-0', 'mb-3');
 const p8 = document.createElement('p');
-p8.textContent =
-  "Samantha is a highly skilled mobile app developer with a strong background in both iOS and Android development. With 4 years of experience, she is able to create high-performance and user-friendly mobile applications.";
+p8.textContent = 'Samantha is a highly skilled mobile app developer with a strong background in both iOS and Android development. With 4 years of experience, she is able to create high-performance and user-friendly mobile applications.';
 
 col13.appendChild(h3Speaker4);
 col13.appendChild(p7);

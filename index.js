@@ -10,7 +10,7 @@ navbar.classList.add(
 );
 
 const row = document.createElement('div');
-row.classList.add('row','text-center');
+row.classList.add('row', 'text-center');
 navbar.appendChild(row);
 
 const smallScreenBars = document.createElement('div');
@@ -76,7 +76,7 @@ welcomeText.classList.add('welcome-text', 'col-12', 'pt-5', 'mt-5');
 row.appendChild(welcomeText);
 
 const h3 = document.createElement('h3');
-h3.classList.add('text-left', 'red','pl-25');
+h3.classList.add('text-left', 'red', 'pl-25');
 h3.textContent = 'Hello World!';
 welcomeText.appendChild(h3);
 
@@ -87,14 +87,14 @@ h1.classList.add(
   'text-left',
   'font-weight-bold',
   'red',
-  'pl-25', 
+  'pl-25',
 );
-h1.style.whiteSpace = "pre-line";
-h1.textContent = "Aruba Ruby\nConference 2023";
+h1.style.whiteSpace = 'pre-line';
+h1.textContent = 'Aruba Ruby\nConference 2023';
 welcomeText.appendChild(h1);
 
 const description = document.createElement('div');
-description.classList.add('col-12', 'mt-4', 'mb-4','pl-25');
+description.classList.add('col-12', 'mt-4', 'mb-4', 'pl-25');
 row.appendChild(description);
 
 const p = document.createElement('p');
@@ -103,17 +103,17 @@ p.textContent = ' Aruba Ruby Global Summit is an annual gathering for all who ar
 description.appendChild(p);
 
 const eventDate = document.createElement('div');
-eventDate.classList.add('event-date', 'col-12','pl-10' );
+eventDate.classList.add('event-date', 'col-12', 'pl-10');
 row.appendChild(eventDate);
 
 const h2 = document.createElement('h2');
-h2.classList.add('font-weight-bold', 'mb-2'); 
+h2.classList.add('font-weight-bold', 'mb-2');
 
 h2.textContent = '2023.01.04(THU) ~ 05(FRI)';
 eventDate.appendChild(h2);
 
 const p2 = document.createElement('p');
-p2.textContent = "@ Cas di Cultura, Oranjestad, Aruba";
+p2.textContent = '@ Cas di Cultura, Oranjestad, Aruba';
 eventDate.appendChild(p2);
 
 document.body.appendChild(navbar);
