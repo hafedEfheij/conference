@@ -1,14 +1,140 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+button,
+ul,
+li,
+a,
+p {
+  background: transparent;
+  list-style: none;
+  color: inherit;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
 
+/* Global Setting */
+
+/* Import custom font Cocogoose for use in headers */
+@font-face {
+  font-family: Cocogoose;
+  src: url("../assets/fonts/cocogoose/Cocogoose Pro-trial.ttf");
+}
+
+/* Set default font for entire body to Lato */
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* Headers use custom font Cocogoose, with font-weight set to bold and background-size set to 100% */
+h1 {
+  font-size: 5vw;
+  font-family: "Cocogoose", sans-serif;
+  font-weight: bold;
+  background-size: 100%;
+  color: transparent;
+}
+
+h2 {
+  font-family: "Cocogoose", sans-serif;
+  font-size: 5vw;
+}
+
+h3 {
+  font-size: 5vw;
+}
+
+/* Set width of all images to 100px */
+img {
+  width: 100px;
+}
+
+/* Set font-size for class 'tickets-title' to 20px */
+.tickets-title {
+  font-size: 20px;
+}
+
+/* Change cursor to pointer when hovering over links and change color when active */
+a {
+  cursor: pointer;
+}
+
+a:hover {
+  color: #ec5242;
+}
+
+a:active {
+  color: #ec5242;
+}
+
+/* Set color and font-weight for all paragraphs */
+p {
+  color: #272a31;
+  font-weight: 100;
+}
+
+/* The row class is used to set the left and right margins to 0 */
+.row {
+  margin-left: 0; /* Remove any left margin */
+  margin-right: 0; /* Remove any right margin */
+}
+
+/* The cta class is used to set the font size for call-to-action elements */
+.cta {
+  font-size: 1.2rem; /* Increase the font size for better visibility */
+}
+
+/* The hr-title class is used to set the border style for horizontal rule elements with a title */
+.hr-title {
+  border: 1px solid #ec5242; /* Use a red color for the border */
+  width: 10%;
+}
+
+/* The hr-speakers class is used to set the border style for horizontal rule elements with speaker information */
+.hr-speakers {
+  border: 1px solid #3c3e43; /* Use a dark gray color for the border */
+  width: 10%; /* Set the width of the border to 10% of the container */
+}
+
+/* The section-title class is used to set the font size for section titles */
+.section-title {
+  font-size: 1.5rem; /* Increase the font size for better visibility */
+}
+
+/* The section-subtitle class is used to set the font size for section subtitles */
+.section-subtitle {
+  font-size: 1.6rem; /* Increase the font size for better visibility */
+}
+
+/* The logo class is used to add padding to the logo container */
+.logo {
+  padding-top: 4px; /* Add 4px padding to the top of the logo container */
+  padding-bottom: 4px; /* Add 4px padding to the bottom of the logo container */
+}
+
+/* The logo img class is used to add a border and border radius to the logo image */
+.logo img {
+  border: 2px solid #000; /* Add a 2px solid black border to the logo image */
+  border-radius: 8px; /* Add a 8px border radius to the logo image for a rounded appearance */
+}
 
 /* slider section */
-
 .image-effect {
   background-image:
     linear-gradient(
       rgba(236, 82, 66, 0.5),
       rgba(236, 82, 66, 0.5)
     ),
-    url(https://images.unsplash.com/photo-1570126646281-5ec88111777f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=725&q=80);
+    url("https://images.unsplash.com/photo-1570126646281-5ec88111777f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=725&q=80");
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -71,7 +197,7 @@
 /* main-program section */
 
 .main-program {
-  background-image:
+  background:
     linear-gradient(
       rgba(40, 43, 50, 0.9),
       rgba(40, 43, 50, 0.9)
@@ -104,7 +230,6 @@
 
 .partners {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -170,64 +295,62 @@
   }
 }
 
-/* past section */
-
-.previous div:nth-child(1) {
+.previous-section:nth-child(1) {
   background-image:
     linear-gradient(
       rgba(236, 82, 66, 0.5),
       rgba(236, 82, 66, 0.5)
     ),
-    url("https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=890&q=80");
+    url("https://images.unsplash.com/photo-1585494514453-b8f1d7f87e0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=890&q=80");
   background-size: cover;
 }
 
-.previous div:nth-child(2) {
+.previous-section:nth-child(2) {
   background-image:
     linear-gradient(
       rgba(236, 82, 66, 0.5),
       rgba(236, 82, 66, 0.5)
     ),
-    url("https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    url("https://images.unsplash.com/photo-1585494514453-b8f1d7f87e0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
   background-size: cover;
 }
 
 /* tickets section */
 
-.bg-table {
+.ticket-bg {
   background:
-    url("https://thumbs.dreamstime.com/b/air-mail-letter-vector-post-stamp-airmail-frame-postcard-blue-red-stripes-pattern-mockup-template-envelope-white-background-185936206.jpg")
+    url("https://thumbs.dreamstime.com/z/postcard-vector-post-stamp-airmail-frame-postcard-blue-red-stripes-pattern-mockup-template-envelope-white-background-185936206.jpg")
     no-repeat;
   background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
-  .steps p {
+  .step-text {
     width: 50%;
     margin: auto;
   }
 
-  .welcome-description {
+  .description-welcome {
     width: 50%;
   }
 
-  .slider-about .welcome-description {
-    width: 50%;
-    margin: auto;
-  }
-
-  .logo-description figure {
+  .slider-about .description-welcome {
     width: 50%;
     margin: auto;
   }
 
-  .program .section-subtitle {
+  .logo-info figure {
+    width: 50%;
+    margin: auto;
+  }
+
+  .program-section .subtitle {
     font-size: 1.2rem;
     margin-top: 5px;
     margin-bottom: 5px;
   }
 
-  .program i {
+  .program-section i {
     font-size: 1.5rem;
   }
 
@@ -261,12 +384,4 @@
     font-weight: 700;
     font-size: 10px;
   }
-}
-
-.pl-25 {
-  padding-left: 25%;
-}
-
-.pl-10 {
-  padding-left: 10%;
 }
