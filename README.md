@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://hafedefheij.github.io/Capstone-Project-1/)
+- [Live Demo Link](https://hafedefheij.github.io/conference/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
