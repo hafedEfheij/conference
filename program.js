@@ -82,7 +82,8 @@ programBlock1DivCol3.classList.add(
   'pr-0',
   'pl-0',
 );
-programBlock1DivCol3.textContent = '6 hours on-demand video. You can listen to the speakers from various countries';
+programBlock1DivCol3.textContent =
+  "Appreciate various creations using Ruby on Rails, organized by Microverse countries";
 programBlock1Div.appendChild(programBlock1DivCol3);
 const programBlock2 = document.createElement('div');
 programBlock2.classList.add(
@@ -144,7 +145,8 @@ programBlock2DivCol3.classList.add(
   'pr-0',
   'pl-0',
 );
-programBlock2DivCol3.textContent = '6 hours on-demand video. You can listen to the speakers from various countries';
+programBlock2DivCol3.textContent =
+  "Have the time to share your thoughts and opinions with topic experts.";
 programBlock2Div.appendChild(programBlock2DivCol3);
 
 const programBlock3 = document.createElement('div');
@@ -188,7 +190,8 @@ programBlock3Div.appendChild(programBlock3DivCol2);
 
 const programBlock3DivCol3 = document.createElement('div');
 programBlock3DivCol3.classList.add('col-sm-5', 'col-12', 'col-md-12', 'pr-0', 'pl-0');
-programBlock3DivCol3.textContent = '6 hours on-demand video. You can listen to the speakers from various countries';
+programBlock3DivCol3.textContent =
+  "Have the time to share your thoughts and opinions with topic experts.";
 programBlock3Div.appendChild(programBlock3DivCol3);
 
 const programBlock4 = document.createElement('div');
@@ -214,7 +217,8 @@ programBlock4Div.appendChild(programBlock4DivCol2);
 
 const programBlock4DivCol3 = document.createElement('div');
 programBlock4DivCol3.classList.add('col-sm-5', 'col-12', 'col-md-12', 'pr-0', 'pl-0');
-programBlock4DivCol3.textContent = '6 hours on-demand video. You can listen to the speakers from various countries';
+programBlock4DivCol3.textContent =
+  "Have the time to share your thoughts and opinions with topic experts.";
 programBlock4Div.appendChild(programBlock4DivCol3);
 
 const programBlock5 = document.createElement('div');
@@ -246,7 +250,7 @@ programBlock5Div.appendChild(programBlock5DivCol2);
 
 const programBlock5DivCol3 = document.createElement('div');
 programBlock5DivCol3.classList.add('col-sm-5', 'col-12', 'col-md-12', 'pr-0', 'pl-0');
-programBlock5DivCol3.textContent = '6 hours on-demand video. You can listen to the speakers from various countries';
+programBlock5DivCol3.textContent = 'Have the time to share your thoughts and opinions with topic experts.';
 programBlock5Div.appendChild(programBlock5DivCol3);
 
 document.body.appendChild(mainProgram);

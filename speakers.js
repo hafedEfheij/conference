@@ -31,7 +31,7 @@ const col3 = document.createElement('div');
 col3.classList.add('col-3', 'speaker-block', 'pr-0', 'pl-0');
 const img = document.createElement('img');
 img.classList.add('img-fluid', 'rounded', 'speaker-avatar');
-img.src = './images/speaker1.jpeg';
+img.src = "./images/speaker3.jpeg";
 img.alt = 'Speaker';
 col3.appendChild(img);
 
@@ -68,7 +68,7 @@ const col6 = document.createElement('div');
 col6.classList.add('col-3', 'speaker-block', 'pr-0', 'pl-0');
 const img2 = document.createElement('img');
 img2.classList.add('img-fluid', 'rounded', 'speaker-avatar');
-img2.src = './assets/images/author1.jpg';
+img2.src = './images/speaker4.jpeg';
 img2.alt = 'Speaker';
 col6.appendChild(img2);
 
@@ -118,7 +118,7 @@ p5.textContent = 'Full Stack Web Developer';
 const hrSpeaker3 = document.createElement('hr');
 hrSpeaker3.classList.add('hr-speakers', 'ml-0', 'mb-3');
 const p6 = document.createElement('p');
-p6.textContent = '3 years of experience as Software Developer in Laravel, Symfony and ReactJS. Looking for new opportunities';
+p6.textContent = 'Jane is a highly skilled front-end developer with a passion for creating visually stunning and user-friendly websites. With 5 years of experience, she is adept in technologies such as HTML, CSS, and JavaScript';
 
 col10.appendChild(h3Speaker3);
 col10.appendChild(p5);
@@ -138,7 +138,7 @@ const col12 = document.createElement('div');
 col12.classList.add('col-3', 'speaker-block', 'pr-0', 'pl-0');
 const img4 = document.createElement('img');
 img4.classList.add('img-fluid', 'rounded', 'speaker-avatar');
-img4.src = './assets/images/author2.png';
+img4.src = "./images/speaker2.jpeg";
 img4.alt = 'Speaker';
 col12.appendChild(img4);
 
@@ -149,11 +149,12 @@ h3Speaker4.classList.add('mb-1', 'section-title', 'font-weight-bold');
 h3Speaker4.textContent = 'David YAO';
 const p7 = document.createElement('p');
 p7.classList.add('red', 'font-italic');
-p7.textContent = 'Full Stack Web Developer';
+p7.textContent = "Mobile App Developer";
 const hrSpeaker4 = document.createElement('hr');
 hrSpeaker4.classList.add('hr-speakers', 'ml-0', 'mb-3');
 const p8 = document.createElement('p');
-p8.textContent = '3 years of experience as Software Developer in Laravel, Symfony and ReactJS. Looking for new opportunities';
+p8.textContent =
+  "Samantha is a highly skilled mobile app developer with a strong background in both iOS and Android development. With 4 years of experience, she is able to create high-performance and user-friendly mobile applications.";
 
 col13.appendChild(h3Speaker4);
 col13.appendChild(p7);
