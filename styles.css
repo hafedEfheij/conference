@@ -229,10 +229,10 @@ p {
 }
 
 .partners {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  display: flex;
+  flex-wrap: wrap;
   margin: auto;
 }
 
@@ -261,9 +261,9 @@ p {
 
 @media screen and (max-width: 320px) {
   tr {
-    display: flex;
     flex-wrap: wrap;
     width: 100%;
+    display: flex;
   }
 
   td {
@@ -295,75 +295,72 @@ p {
   }
 }
 
-.previous-section:nth-child(1) {
+/* past section */
+
+.previous div:nth-child(1) {
   background-image:
     linear-gradient(
       rgba(236, 82, 66, 0.5),
       rgba(236, 82, 66, 0.5)
     ),
-    url("https://images.unsplash.com/photo-1585494514453-b8f1d7f87e0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=890&q=80");
+    url("https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=890&q=80");
   background-size: cover;
 }
 
-.previous-section:nth-child(2) {
+.previous div:nth-child(2) {
   background-image:
     linear-gradient(
       rgba(236, 82, 66, 0.5),
       rgba(236, 82, 66, 0.5)
     ),
-    url("https://images.unsplash.com/photo-1585494514453-b8f1d7f87e0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+    url("https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
   background-size: cover;
 }
 
 /* tickets section */
 
-.ticket-bg {
+.bg-table {
   background:
-    url("https://thumbs.dreamstime.com/z/postcard-vector-post-stamp-airmail-frame-postcard-blue-red-stripes-pattern-mockup-template-envelope-white-background-185936206.jpg")
+    url("https://thumbs.dreamstime.com/b/air-mail-letter-vector-post-stamp-airmail-frame-postcard-blue-red-stripes-pattern-mockup-template-envelope-white-background-185936206.jpg")
     no-repeat;
   background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
-  .step-text {
+  .steps p {
     width: 50%;
     margin: auto;
   }
 
-  .description-welcome {
-    width: 50%;
-  }
-
-  .slider-about .description-welcome {
+  .welcome-description {
     width: 50%;
     margin: auto;
   }
 
-  .logo-info figure {
+  .slider-about .welcome-description {
     width: 50%;
     margin: auto;
   }
 
-  .program-section .subtitle {
+  .logo-description figure {
+    width: 50%;
+    margin: auto;
+  }
+
+  .program .section-subtitle {
     font-size: 1.2rem;
     margin-top: 5px;
     margin-bottom: 5px;
   }
 
-  .program-section i {
+  .program i {
     font-size: 1.5rem;
   }
 
   .program-block-parent {
     margin: 2px;
   }
-}
 
-#footer {
-  display: none;
-}
-
-@media screen and (min-width: 768px) {
   #footer {
     height: 100%;
     background: #fff;
@@ -383,5 +380,19 @@ p {
     color: #3c3b45;
     font-weight: 700;
     font-size: 10px;
+  }
+}
+
+.pl-25 {
+  padding-left: 25%;
+}
+
+.pl-10 {
+  padding-left: 10%;
+}
+
+@media screen and (min-width: 768px) {
+  #footer {
+    display: grid;
   }
 }
