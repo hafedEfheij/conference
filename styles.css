@@ -22,20 +22,17 @@ p {
   padding: 0;
 }
 
-/* Global Setting */
+/*  Setting */
 
-/* Import custom font Cocogoose for use in headers */
 @font-face {
   font-family: Cocogoose;
   src: url("../assets/fonts/cocogoose/Cocogoose Pro-trial.ttf");
 }
 
-/* Set default font for entire body to Lato */
 body {
   font-family: "Lato", sans-serif;
 }
 
-/* Headers use custom font Cocogoose, with font-weight set to bold and background-size set to 100% */
 h1 {
   font-size: 5vw;
   font-family: "Cocogoose", sans-serif;
@@ -53,17 +50,14 @@ h3 {
   font-size: 5vw;
 }
 
-/* Set width of all images to 100px */
 img {
   width: 100px;
 }
 
-/* Set font-size for class 'tickets-title' to 20px */
 .tickets-title {
   font-size: 20px;
 }
 
-/* Change cursor to pointer when hovering over links and change color when active */
 a {
   cursor: pointer;
 }
@@ -76,58 +70,48 @@ a:active {
   color: #ec5242;
 }
 
-/* Set color and font-weight for all paragraphs */
 p {
   color: #272a31;
   font-weight: 100;
 }
 
-/* The row class is used to set the left and right margins to 0 */
 .row {
-  margin-left: 0; /* Remove any left margin */
-  margin-right: 0; /* Remove any right margin */
+  margin-left: 0;
+  margin-right: 0;
 }
 
-/* The cta class is used to set the font size for call-to-action elements */
 .cta {
-  font-size: 1.2rem; /* Increase the font size for better visibility */
+  font-size: 1.2rem;
 }
 
-/* The hr-title class is used to set the border style for horizontal rule elements with a title */
 .hr-title {
-  border: 1px solid #ec5242; /* Use a red color for the border */
+  border: 1px solid #ec5242;
   width: 10%;
 }
 
-/* The hr-speakers class is used to set the border style for horizontal rule elements with speaker information */
 .hr-speakers {
-  border: 1px solid #3c3e43; /* Use a dark gray color for the border */
-  width: 10%; /* Set the width of the border to 10% of the container */
+  border: 1px solid #3c3e43;
+  width: 10%;
 }
 
-/* The section-title class is used to set the font size for section titles */
 .section-title {
-  font-size: 1.5rem; /* Increase the font size for better visibility */
+  font-size: 1.5rem;
 }
 
-/* The section-subtitle class is used to set the font size for section subtitles */
 .section-subtitle {
-  font-size: 1.6rem; /* Increase the font size for better visibility */
+  font-size: 1.6rem;
 }
 
-/* The logo class is used to add padding to the logo container */
 .logo {
-  padding-top: 4px; /* Add 4px padding to the top of the logo container */
-  padding-bottom: 4px; /* Add 4px padding to the bottom of the logo container */
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
-/* The logo img class is used to add a border and border radius to the logo image */
 .logo img {
-  border: 2px solid #000; /* Add a 2px solid black border to the logo image */
-  border-radius: 8px; /* Add a 8px border radius to the logo image for a rounded appearance */
+  border: 2px solid #000;
+  border-radius: 8px;
 }
 
-/* slider section */
 .image-effect {
   background-image:
     linear-gradient(
@@ -198,10 +182,7 @@ p {
 
 .main-program {
   background:
-    linear-gradient(
-      rgba(40, 43, 50, 0.9),
-      rgba(40, 43, 50, 0.9)
-    ),
+    linear-gradient(rgba(40, 43, 50, 0.9), rgba(40, 43, 50, 0.9)),
     url("https://images.assetsdelivery.com/compings_v2/floralset/floralset1905/floralset190500161.jpg");
   background-size: cover;
 }
