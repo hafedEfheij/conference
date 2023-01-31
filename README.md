@@ -33,7 +33,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Aruba Ruby Conference 2023 <a name="about-project"></a>
+# 📖 Aruba  Conference 2023 <a name="about-project"></a>
 
 **Aruba Ruby Conference 2023** is a webpage built as a capstone project to showcase html, css, and javascript skills gained during Module 1 of the Microverse program.
 
@@ -185,7 +185,7 @@ Please star this project if you like this project.
 
 - **How can I see the project?**
 
-  - Just clone the repository as expained in the setup section, and open the index.html file in your preferred browser.
+  - Just clone the repository  from github as expained in the setup section, and open the index.html file in your preferred browser.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
