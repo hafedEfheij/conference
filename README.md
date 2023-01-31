@@ -181,7 +181,7 @@ Please star this project if you like this project.
 
 - **Can I re-use your code?**
 
-  - Sure, no problem!
+  - Sure, no problem, just clone it and use it as you wish!
 
 - **How can I see the project?**
 
